@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-﻿
-=======
-# Dicionários em Python (tipo dict)
+﻿# Dicionários em Python (tipo dict)
 # Dicionários são estruturas de dados do tipo
 # par de "chave" e "valor".
 # Chaves podem ser consideradas como o "índice"
@@ -93,5 +90,3 @@ print(d1)
 print(d2)
 
 
-
->>>>>>> 61f3a43b2c3f8c96825722129e71e758b0cf19b0
