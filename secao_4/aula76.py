@@ -73,20 +73,43 @@
 #     print(valor)
 # for chave, valor in pessoa.items():
 #     print(chave, valor)
-import copy
+# import copy
+# d1 = {
+#     'c1': 1,
+#     'c2': 2,
+#     'l1': [0, 1, 2]
+# }
+# d2 = d1.copy()
+# # d2 = copy.deepcopy(d1)
 
-d1 = {
-    'c1': 1,
-    'c2': 2,
-    'l1': [0, 1, 2]
+# d2['l1'][1] = 999999
+
+# d2 ['c1'] = 100
+# print(d1)
+# print(d2)
+p1 = {
+    'nome': 'Marcos',
+    'sobrenome': 'Albano',
 }
-d2 = d1.copy()
-# d2 = copy.deepcopy(d1)
+# print(p1.get('nome'))
+# nome = p1.pop('nome')
+# print(nome)
+# print(p1)
+# print(p1)
+# ultima_chave = p1.popitem()
+# print(ultima_chave)
+# print(p1)
+# p1.update({
+#     'nome': 'novo valor',
+#     'idade': 50
+# })
+# p1.update(nome='novo valor', idade=30)
+tupla = ('nome', 'novo valor 3'), 
+lista = ['nome', 'novo valor 3'], 
 
-d2['l1'][1] = 999999
+p1.update(lista)
+print(p1)
 
-d2 ['c1'] = 100
-print(d1)
-print(d2)
+
 
 
